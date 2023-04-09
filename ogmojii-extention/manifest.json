@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "OGMojii",
   "version": "1.0",
-  "description": "Use og text emoji's on Facebook",
+  "description": "Use emoticons on Facebook",
   "permissions": [
     "<all_urls>"
   ],
