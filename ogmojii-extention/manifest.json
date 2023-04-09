@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "OGMojii",
+  "version": "1.0",
+  "description": "Add zero-width spaces to emoji names on Facebook and Instagram",
+  "permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.facebook.com/*", "*://*.instagram.com/*"],
+      "js": ["ogmojii.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
