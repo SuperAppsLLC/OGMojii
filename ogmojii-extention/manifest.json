@@ -1,20 +1,13 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "OGMojii",
   "version": "1.0",
-  "description": "Use emoticons on Facebook",
-  "permissions": [
-    "scripting",
-    "activeTab"
-  ],
+  "description": "Add zero-width spaces to emoji names on Facebook and Instagram",
+  "permissions": ["tabs", "activeTab", "scripting"],
   "content_scripts": [
     {
-      "matches": [
-        "*://*.facebook.com/*"
-      ],
-      "js": [
-        "ogmojii.js"
-      ]
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["ogmojii.js"]
     }
   ],
   "icons": {
